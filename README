@@ -1,0 +1,20 @@
+Simple perl scripts that performs stylistic checking of C/C++ code.
+
+Feel free to try them.
+
+comment.pl
+    try to locate places where comments might be needed.
+    before variable declarations it might be a good idea to describe the purpose
+    of the variable
+
+define.pl
+    locate defines as they should be avoided.
+
+magic-numbers.pl
+    locate magic numbers in the code. in general it is better to
+    use constants than magic numbers.
+
+tabs.pl
+    warn if there are tabs in string constants. This can have surprising
+    effects. it's better to use '\t'.
+
